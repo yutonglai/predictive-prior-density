@@ -18,3 +18,10 @@ Consider a hospital where we observe y deaths and an exposure equal to e. The ga
 prior is conjugate to the Poisson likelihood, and therefore the posterior g(λjy; e) is also
 gamma(α + y; β + e)
 
+From Bayes’ theorem, we know that
+g(λjy) = p(λ)f(yjλ)
+p(y) ;
+and therefore, the prior predictive density of y (before any data are collected) can be
+obtained as
+p(y) = p(λ)f(yjλ)
+g(λjy)
